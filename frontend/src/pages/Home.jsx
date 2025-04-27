@@ -40,14 +40,15 @@ const Home = () => {
       <section className="container mx-auto px-4 py-16">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-6 text-center">Project Overview</h2>
-          <p className="text-lg mb-4">
+          <p className="text-lg mb-4 text-justify">
             Our Speech Representation Learning project aims to revolutionize speech recognition technology by developing robust models that perform exceptionally well in noisy environments. By leveraging advanced machine learning techniques and self-supervised learning, we're pushing the boundaries of what's possible in speech processing.
           </p>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             Whether it's busy streets, crowded cafes, or industrial settings, our technology adapts to challenging acoustic conditions, ensuring clear and accurate speech recognition where traditional systems fall short.
           </p>
-        </div>
+        </div> 
       </section>
+
 
       {/* Key Features */}
       <section className="bg-gray-200 py-16">
